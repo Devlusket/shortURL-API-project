@@ -1,5 +1,7 @@
+import API_KEY from "./apikey";
 // Information to reach API
-const apiKey = 'dd9fa37fe411456d92074e9b0f518442';
+//const apiKey = 'dd9fa37fe411456d92074e9b0f518442';
+const apiKey = API_KEY; // Import the API key from apikey.js
 const url = 'https://api.rebrandly.com/v1/links';
 
 // Some page elements
